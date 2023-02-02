@@ -1,0 +1,50 @@
+getgenv().SecureMode = true
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+    Name = "jakepapaoHub",
+    LoadingTitle = "jakepapaoHub",
+    LoadingSubtitle = "by jakepapao",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, 
+       FileName = "jakepapao Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "jakepapao", 
+       RememberJoins = true 
+    },
+    KeySystem = true, 
+    KeySettings = {
+       Title = "jakepapao Hub",
+       Subtitle = "Key System",
+       Note = "Join the discord (discord.gg/jakepapao)",
+       FileName = "jakepapaoKey",
+       SaveKey = true,
+       GrabKeyFromSite = false, 
+       Key = "EAF76214"
+    }
+ })
+ local MainTab = Window:CreateTab("Main", 4483362458) 
+ local CreditTab = Window:CreateTab("CreditTab", 4483362458) 
+ local Section = MainTab:CreateSection("Press it once to print")
+  local Section = MainTab:CreateSection("Credit to DIOOO/Ryhan")
+ local Button = Tab:CreateButton({
+    Name = "PRINT HWID in server ONLY paid",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/jakepapaoHub5/HWID/main/newloader'))()
+    end,
+ })
+
+
+
+
+
+
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
