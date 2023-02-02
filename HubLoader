@@ -29,7 +29,7 @@ local Window = Rayfield:CreateWindow({
  local CreditTab = Window:CreateTab("CreditTab", 4483362458) 
  local Section = MainTab:CreateSection("Press it once to print")
   local Section = CreditTab:CreateSection("Credit to DIOOO/Ryhan")
- local Button = Tab:CreateButton({
+ local Button = MainTab:CreateButton({
     Name = "PRINT HWID in server ONLY paid",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/jakepapaoHub5/HWID/main/newloader'))()
